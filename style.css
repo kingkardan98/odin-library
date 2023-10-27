@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+#topBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+#pageTitle{
+    font-family: 'Lobster';
+    font-size: 25px;
+    text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;  
+}
