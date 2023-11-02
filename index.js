@@ -22,9 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (item.classList.contains('read')) {
             item.src = src2;
             item.classList.remove('read');
+            item.read = false;
         } else {
             item.src = src1;
             item.classList.add('read');
+            item.read = true;
         }
     }
 
